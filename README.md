@@ -47,3 +47,8 @@ These instructions will get you a copy of the project up and running on your loc
  * The `gulp stitch` task compiles the JS files with Google Closure Compiler, minifies them into a single file and puts them inside `dist/js`.
  * Run `gulp watch` to have Gulp look for changes made within `scripts/*.js` files and automatically run the `lint` task followed by the `stitch` task.
  * Run `gulp doc` to have gulp generate JSDoc documentation and put them in `docs/gen` automatically
+
+### Contribuing
+ * Use the `git-flow` tool to generate feature branches off of the `develop` branch
+ * Publish feature branches onto the remote using `git-flow`
+ * Once feature is complete, use `git-flow` to finish the feature into the `develop` branch
