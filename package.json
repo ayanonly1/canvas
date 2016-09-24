@@ -1,0 +1,37 @@
+{
+  "name": "canvas",
+  "version": "0.0.1",
+  "description": "A simple JavaScript library to manipulate HTML canvas elements",
+  "main": "gulpfile.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayanonly1/canvas.git"
+  },
+  "keywords": [
+    "html",
+    "javascript",
+    "canvas",
+    "library",
+    "fusioncharts"
+  ],
+  "author": "Nakshatra Mukhopadhyay",
+  "bugs": {
+    "url": "https://github.com/ayanonly1/canvas/issues"
+  },
+  "homepage": "https://github.com/ayanonly1/canvas#readme",
+  "devDependencies": {
+    "eslint": "^3.5.0",
+    "google-closure-compiler": "^20160911.0.0",
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^3.0.1",
+    "gulp-jsdoc3": "^1.0.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sourcemaps": "^1.6.0"
+  }
+}

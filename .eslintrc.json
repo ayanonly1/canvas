@@ -1,0 +1,98 @@
+{
+	"env": {
+		"browser": true,
+		"commonjs": true,
+		"es6": true,
+		"jquery": true
+	},
+	"extends": "eslint:recommended",
+	"globals": {
+		"goog": true,
+		"Canvas": true
+	},
+	"parserOptions": {
+		"sourceType": "script"
+	},
+	"rules": {
+		"indent": [
+			"error",
+			"tab",
+			{
+				"SwitchCase": 1
+			}
+		],
+		"linebreak-style": [
+			"error",
+			"unix"
+		],
+		"quotes": [
+			"error",
+			"single"
+		],
+		"semi": [
+			"error",
+			"always"
+		],
+		"no-extra-semi": [
+			"off"
+		],
+		"no-use-before-define": [
+			"error",
+			"nofunc"
+		],
+		"no-empty-character-class": [
+			"error"
+		],
+		"object-curly-spacing": [
+			"error",
+			"always"
+		],
+		"space-in-parens": [
+			"error",
+			"never"
+		],
+		"array-callback-return": [
+			"warn"
+		],
+		"block-scoped-var": [
+			"error"
+		],
+		"dot-notation": [
+			"warn"
+		],
+		"dot-location": [
+			"warn",
+			"property"
+		],
+		"default-case": [
+			"error"
+		],
+		"init-declarations": [
+			"error",
+			"always"
+		],
+		"no-alert": [
+			"error"
+		],
+		"no-multi-spaces": [
+			"error",
+			{
+				"exceptions": {
+					"VariableDeclarator": true,
+					"ImportDeclaration": true,
+					"Property": true
+				}
+			}
+		],
+		"no-console": [
+			"warn",
+			{
+				"allow": [
+					"info",
+					"warn",
+					"error"
+				]
+			}
+		]
+	}
+}
