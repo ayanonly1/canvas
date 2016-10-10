@@ -144,25 +144,12 @@
 
             
 
-            <td class="description last"><p>The
-configuration object used to initialize the canvas</p></td>
-        </tr>
+            <td class="description last"><p>The configuration object used to initialize the
+                       canvas.</p>
+                <h6 class="method-params-label method-subparams-label">Properties</h6>
+                
 
-    
-    </tbody>
-</table>
-
-    
-
-    
-<dl class="details">
-    
-
-    <h5 class="subsection-title">Properties:</h5>
-
-    <dl>
-
-<table class="props table table-striped">
+<table class="params table table-striped">
     <thead>
     <tr>
         
@@ -172,7 +159,11 @@ configuration object used to initialize the canvas</p></td>
         <th>Type</th>
 
         
+        <th>Argument</th>
+        
 
+        
+        <th>Default</th>
         
 
         <th class="last">Description</th>
@@ -198,10 +189,23 @@ configuration object used to initialize the canvas</p></td>
             </td>
 
             
+                <td class="attributes">
+                
 
+                
+
+                
+                </td>
             
 
-            <td class="description last"><p>The ID of target element within which the canvas will be rendered</p></td>
+            
+                <td class="default">
+                
+                </td>
+            
+
+            <td class="description last"><p>The ID of target element within which the
+                              canvas will be rendered.</p></td>
         </tr>
 
     
@@ -222,10 +226,26 @@ configuration object used to initialize the canvas</p></td>
             </td>
 
             
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
 
+                
+
+                
+                </td>
             
 
-            <td class="description last"><p>The width of the canvas element to be rendered</p></td>
+            
+                <td class="default">
+                
+                    640
+                
+                </td>
+            
+
+            <td class="description last"><p>The width of the canvas element.</p></td>
         </tr>
 
     
@@ -246,17 +266,33 @@ configuration object used to initialize the canvas</p></td>
             </td>
 
             
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
 
+                
+
+                
+                </td>
             
 
-            <td class="description last"><p>The height of the canvas element to be rendered</p></td>
+            
+                <td class="default">
+                
+                    360
+                
+                </td>
+            
+
+            <td class="description last"><p>The height of the canvas element.</p></td>
         </tr>
 
     
 
         <tr>
             
-                <td class="name"><code>context</code></td>
+                <td class="name"><code>fillColor</code></td>
             
 
             <td class="type">
@@ -270,17 +306,44 @@ configuration object used to initialize the canvas</p></td>
             </td>
 
             
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
 
+                
+
+                
+                </td>
             
 
-            <td class="description last"><p>The rendering context of the canvas element (2d)</p></td>
+            
+                <td class="default">
+                
+                    #FFFFFF
+                
+                </td>
+            
+
+            <td class="description last"><p>The color of the canvas element
+                                           in HEX format.</p></td>
         </tr>
 
     
     </tbody>
 </table>
-</dl>
 
+            </td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+    
+
+    
+<dl class="details">
     
 
 	
@@ -347,6 +410,365 @@ configuration object used to initialize the canvas</p></td>
 
     
 
+    
+        <h3 class="subsection-title">Members</h3>
+
+        <dl>
+            
+<hr>
+<dt class="name" id="canvasElement">
+    <h4 id="canvasElement"><span class="type-signature"></span>canvasElement<span class="type-signature"> :Element</span></h4>
+
+    
+</dt>
+<dd>
+    
+    <div class="description">
+        <p>The canvas element being rendered.</p>
+    </div>
+    
+
+    
+        <h5>Type:</h5>
+        <ul>
+            <li>
+                
+<span class="param-type">Element</span>
+
+
+
+            </li>
+        </ul>
+    
+
+    
+<dl class="details">
+    
+
+	
+
+	
+
+	
+
+    
+
+    
+
+    
+
+    
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+
+	
+
+	
+
+	
+
+	
+</dl>
+
+
+    
+</dd>
+
+        
+            
+<hr>
+<dt class="name" id="ctx">
+    <h4 id="ctx"><span class="type-signature"></span>ctx<span class="type-signature"> :CanvasRenderingContext2D</span></h4>
+
+    
+</dt>
+<dd>
+    
+    <div class="description">
+        <p>The base rendering context of the canvas element.</p>
+    </div>
+    
+
+    
+        <h5>Type:</h5>
+        <ul>
+            <li>
+                
+<span class="param-type">CanvasRenderingContext2D</span>
+
+
+
+            </li>
+        </ul>
+    
+
+    
+<dl class="details">
+    
+
+	
+
+	
+
+	
+
+    
+
+    
+
+    
+
+    
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+
+	
+
+	
+
+	
+
+	
+</dl>
+
+
+    
+</dd>
+
+        
+            
+<hr>
+<dt class="name" id="height">
+    <h4 id="height"><span class="type-signature"></span>height<span class="type-signature"> :number</span></h4>
+
+    
+</dt>
+<dd>
+    
+    <div class="description">
+        <p>The height of the canvas element in pixels.</p>
+    </div>
+    
+
+    
+        <h5>Type:</h5>
+        <ul>
+            <li>
+                
+<span class="param-type">number</span>
+
+
+
+            </li>
+        </ul>
+    
+
+    
+<dl class="details">
+    
+
+	
+
+	
+
+	
+
+    
+
+    
+
+    
+
+    
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+
+	
+
+	
+
+	
+
+	
+</dl>
+
+
+    
+</dd>
+
+        
+            
+<hr>
+<dt class="name" id="targetElement">
+    <h4 id="targetElement"><span class="type-signature"></span>targetElement<span class="type-signature"> :Element</span></h4>
+
+    
+</dt>
+<dd>
+    
+    <div class="description">
+        <p>The target element in which the canvas is to be rendered.</p>
+    </div>
+    
+
+    
+        <h5>Type:</h5>
+        <ul>
+            <li>
+                
+<span class="param-type">Element</span>
+
+
+
+            </li>
+        </ul>
+    
+
+    
+<dl class="details">
+    
+
+	
+
+	
+
+	
+
+    
+
+    
+
+    
+
+    
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+
+	
+
+	
+
+	
+
+	
+</dl>
+
+
+    
+</dd>
+
+        
+            
+<hr>
+<dt class="name" id="width">
+    <h4 id="width"><span class="type-signature"></span>width<span class="type-signature"> :number</span></h4>
+
+    
+</dt>
+<dd>
+    
+    <div class="description">
+        <p>The width of the canvas element in pixels.</p>
+    </div>
+    
+
+    
+        <h5>Type:</h5>
+        <ul>
+            <li>
+                
+<span class="param-type">number</span>
+
+
+
+            </li>
+        </ul>
+    
+
+    
+<dl class="details">
+    
+
+	
+
+	
+
+	
+
+    
+
+    
+
+    
+
+    
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+
+	
+
+	
+
+	
+
+	
+</dl>
+
+
+    
+</dd>
+
+        </dl>
     
 
     
@@ -672,7 +1094,282 @@ configuration object used to initialize the canvas</p></td>
 
             
 
-            <td class="description last"><p>Contains configuration options to render text on a canvas</p></td>
+            <td class="description last"><p>Contains configuration options to render text on a
+                       canvas.</p>
+                <h6 class="method-params-label method-subparams-label">Properties</h6>
+                
+
+<table class="params table table-striped">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+        <th>Argument</th>
+        
+
+        
+        <th>Default</th>
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>textStr</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    ''
+                
+                </td>
+            
+
+            <td class="description last"><p>The text which will be written onto the
+                                    canvas.</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>posX</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    0
+                
+                </td>
+            
+
+            <td class="description last"><p>The start position of the text along the X
+                                direction.</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>posY</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    fontPx
+                
+                </td>
+            
+
+            <td class="description last"><p>The start position of the text along
+                                     the Y direction.</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>fontPx</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    16
+                
+                </td>
+            
+
+            <td class="description last"><p>The font size of the text in pixels.</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>fontFamily</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    serif
+                
+                </td>
+            
+
+            <td class="description last"><p>The font family of the text.</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>fontColor</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    #000000
+                
+                </td>
+            
+
+            <td class="description last"><p>The color of the text to be
+                                           rendered in HEX code.</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+            </td>
         </tr>
 
     
@@ -784,9 +1481,9 @@ configuration object used to initialize the canvas</p></td>
 
 
 <span class="jsdoc-message">
-	Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.4.1</a>
+	Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.4.2</a>
 	
-		on September 24th 2016, 11:21:31 pm
+		on October 11th 2016, 2:49:46 am
 	
 	using the <a href="https://github.com/docstrap/docstrap">DocStrap template</a>.
 </span>
