@@ -1,28 +1,30 @@
 {
-  "name": "canvas",
-  "homepage": "https://github.com/ayanonly1/canvas",
-  "authors": [
-    "Nakshatra Mukhopadhyay <nakshatra@fusioncharts.com>"
-  ],
-  "description": "A simple JavaScript library to manipulate HTML canvas elements",
-  "main": "index.html",
-  "keywords": [
-    "canvas",
-    "html",
-    "js",
-    "library",
-    "javascript",
-    "fusioncharts"
-  ],
-  "private": true,
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ],
-  "dependencies": {
-    "jquery": "^3.1.1"
-  }
+    "name": "canvas",
+    "homepage": "https://github.com/ayanonly1/canvas",
+    "authors": [
+        "Nakshatra Mukhopadhyay <nakshatra@fusioncharts.com>"
+    ],
+    "description": "A simple JavaScript library to manipulate HTML canvas elements",
+    "main": "index.html",
+    "keywords": [
+        "canvas",
+        "html",
+        "js",
+        "library",
+        "javascript",
+        "fusioncharts"
+    ],
+    "private": true,
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests",
+        "sample",
+        "samples"
+    ],
+    "dependencies": {
+        "jquery": "^3.1.1"
+    }
 }

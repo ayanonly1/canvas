@@ -5,12 +5,12 @@ goog.require('Canvas');
  * @param  {{svgStr: string}} config Contains configuration options to render a path on a canvas
  */
 window.Canvas.prototype.path = function(config) {
-	/**
-	 * The SVG path which will be converted into a Canvas path
-	 * @private
-	 * @type {string}
-	 */
-	var svgStr = config.svgStr;
+    /**
+    * The SVG path which will be converted into a Canvas path
+    * @private
+    * @type {string}
+    */
+    var svgStr = config.svgStr;
 
-	console.info(svgStr);
+    console.info(svgStr);
 };
